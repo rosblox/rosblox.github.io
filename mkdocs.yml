@@ -1,0 +1,6 @@
+site_name: DiscoveRhinOS
+site_url: https://discoverhinos.github.io/
+nav:
+    - Home: index.md
+
+theme: readthedocs
