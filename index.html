@@ -43,7 +43,39 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#unboxing">Unboxing</a>
+    <li class="toctree-l2"><a class="reference internal" href="#about">About</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connecting-to-rosblox">Connecting to ROSbloX</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#connecting-to-rosblox-via-usb">Connecting to ROSbloX via USB</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#connecting-to-rosblox-via-ethernet">Connecting to ROSbloX via Ethernet</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#dynamic-ip-adress-from-a-dhcp-server">Dynamic IP Adress from a DHCP Server</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#static-ip-adress">Static IP Adress</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#interfacing-with-rosblox">Interfacing with ROSbloX</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#web-interface">Web Interface</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#roslibpy">roslibpy</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ros">ROS</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#open-architecture">Open Architecture</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</a>
+    </li>
+        </ul>
     </li>
     </ul>
                 </li>
@@ -72,10 +104,41 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="the-rosblox-documentation">The ROSbloX documentation</h1>
-<p>ROSbloX are flexible modules to discover the capabilities of the Robot Operating System (ROS).</p>
-<p>Not much, yet.</p>
-<h2 id="unboxing">Unboxing</h2>
-<p>All ROSbloX can be connected via USB, Ethernet, Wifi.</p>
+<p>ROSbloX are modules to discover the Robot Operating System (ROS).</p>
+<p>Join us on Slack: <a href="https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA">ROSbloX Workspace</a><br />
+Follow us on Twitter: <a href="https://twitter.com/xploros">ROSblox (@xploros)</a></p>
+<h2 id="about">About</h2>
+<p>The Robot Operating System (ROS), <a href="https://www.ros.org/">https://www.ros.org/</a>, is rapidly becoming a de facto standard for writing interoperable and reusable robot software. The interoperability and reusability of ROS software come at the price of an increased sofware complexity. Getting started with ROS can be particularly challenging for developers with a primary background in mechanical or electrical engineering and not sofware engineering.  </p>
+<p>ROSbloX are modules to explore various sensors and actuators and to discover the capabilities of ROS with minimal prior knowledge. Each ROSbloX implements a sensor or an actuator, is equipped with multiple interfaces to communicate with other computers and simple interfaces,  i.e. a web interface, a python library, and native ROS, to transmit data. </p>
+<h2 id="requirements">Requirements</h2>
+<p>ROSbloX function with computers which run Windows, MacOS or Linux. To open a ROSbloX's web interface, a computer requires solely the <a href="https://www.google.com/chrome/">Chrome</a> browser to be installed. Note, ROSbloX do not require an installation of ROS on the computer.</p>
+<h2 id="connecting-to-rosblox">Connecting to ROSbloX</h2>
+<p>ROSbloX can be connected via USB-C or Ethernet.</p>
+<h3 id="connecting-to-rosblox-via-usb">Connecting to ROSbloX via USB</h3>
+<p>The USB port of ROSbloX is configured such that the ROSbloX appears on your computer as a network adapter. When connected via USB, the ROSBloX is accessible via the static IP address, [10.99.10.99/24]. The ROSbloX runs a DHCP server on the USB interface and automatically assigns an IP address to your computer. </p>
+<h3 id="connecting-to-rosblox-via-ethernet">Connecting to ROSbloX via Ethernet</h3>
+<p>Each ROSbloX's Ethernet interface has two IP addresses assigned to it. One static which is set on the ROSbloX itself and one dynamic which waits for a DHCP lease.</p>
+<h4 id="dynamic-ip-adress-from-a-dhcp-server">Dynamic IP Adress from a DHCP Server</h4>
+<p>The dynamic IP address of a ROSbloX is assigned to it by a DHCP server. To access a ROSbloX via its dynamic IP address, the IP address is found on the DHCP server.</p>
+<h4 id="static-ip-adress">Static IP Adress</h4>
+<p>To access a ROSbloX via their static IP address, make sure the computer's connected Ethernet interface has a static IP address in the same subnet. 
+Each ROSbloX ships with the same static IP address, [10.99.11.99/24]. Note, this can lead to conflicts if you connect multiple ROSbloX to the same network. <a href="#changing-a-rosblox-network-configuration">Custom foo description</a></p>
+<h2 id="interfacing-with-rosblox">Interfacing with ROSbloX</h2>
+<p>Three interfaces can be used to transmit data to/from ROSBloX. A simple web interface is accessible without installation of any additional software except a webbrowser. The webinterface can be used to visualize and/or download data from a ROSbloX. The Python library, roslibpy, enables data transmission to/from ROSbloX without installing ROS and is easy to integrate Python scripts. Finally, each ROSbloX can be found as ROS node by other ROS nodes in a network.</p>
+<h3 id="web-interface">Web Interface</h3>
+<p>After a ROSbloX has started (it can take up to a minute), its web interface is accessible at [http://rockpis.local] in your Chrome browser. Some networks do not allow the discovery of ROSBloX by their mDNS name, i.e. they cannot be reached at [http://rockpis.local]. In that case their web interface can be accessed at their IP address's, i.e. [http://10.99.10.99] if connected via USB and [http://10.99.12.99] if connected via Ethernet.</p>
+<h3 id="roslibpy">roslibpy</h3>
+<p>To transmit data to/from a ROSblox in a Python script, the roslibpy can be used. Install the library with pip install roslibpy.
+<todo show example in 5 lines how to receive data></p>
+<h3 id="ros">ROS</h3>
+<p>Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing ros2 topic list. We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.  </p>
+<h2 id="open-architecture">Open Architecture</h2>
+<p>ROSblox are open. Login to a ROSbloX via SSH.  </p>
+<p>Username: rock<br />
+Password: rock  </p>
+<h3 id="changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</h3>
+<p>The ROSbloX network interfaces are configured in /etc/netplan/01-net.cfg. 
+We refer to netplan.io for further instructions how to modify its network configuration.</p>
               
             </div>
           </div><footer>
@@ -118,5 +181,5 @@
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-07-12 15:31:45.070189+00:00
+Build Date UTC : 2022-07-12 21:36:13.380285+00:00
 -->
