@@ -1,5 +1,5 @@
-site_name: DiscoveRhinOS
-site_url: https://discoverhinos.github.io/
+site_name: ROSbloX
+site_url: https://rosblox.github.io/
 nav:
     - Home: index.md
 
