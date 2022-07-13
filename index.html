@@ -130,10 +130,31 @@ Note, ROSbloX do not require any installation of ROS on a computer.</p>
 <h3 id="web-interface">Web Interface</h3>
 <p>To open a ROSbloX's web interface, a computer requires solely the <a href="https://www.google.com/chrome/">Chrome</a> browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at [http://rockpis.local] in your Chrome browser. </p>
 <h3 id="roslibpy">roslibpy</h3>
-<p>To transmit data to/from a ROSblox in a Python script, the roslibpy can be used. Install the library with pip install roslibpy.
-<todo show example in 5 lines how to receive data></p>
+<p>To transmit data to/from a ROSblox in a Python script, the roslibpy can be used. Install the library with </p>
+<pre><code>pip install roslibpy
+</code></pre>
+<p>Afterwards, you can run the following lines in a Python shell to receive data from your ORSbloX.</p>
+<pre><code>from __future__ import print_function
+import roslibpy
+
+client = roslibpy.Ros(host='rockpis.local', port=9090)
+client.run()
+
+listener = roslibpy.Topic(client, '/topic', 'std_msgs/Float32')
+listener.subscribe(lambda message: print(message))
+
+try:
+    while True:
+        pass
+except KeyboardInterrupt:
+    client.terminate()
+</code></pre>
 <h3 id="ros">ROS</h3>
-<p>Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing ros2 topic list. We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.  </p>
+<p>Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing </p>
+<pre><code>ros2 node list
+ros2 topic list
+</code></pre>
+<p>We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.  </p>
 <h2 id="open-architecture">Open Architecture</h2>
 <p>ROSblox are open. Login to a ROSbloX via SSH.  </p>
 <p>Username: rock<br />
@@ -183,5 +204,5 @@ We refer to netplan.io for further instructions how to modify its network config
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-07-13 07:54:28.599923+00:00
+Build Date UTC : 2022-07-13 17:32:15.792246+00:00
 -->
