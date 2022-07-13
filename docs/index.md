@@ -3,7 +3,8 @@
 ROSbloX are modules to discover the Robot Operating System (ROS).
 
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
-Follow us on Twitter: [ROSblox (@xploros)](https://twitter.com/xploros)
+Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)
+Subscribe to our Youtube channel: [ROSbloX](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)
 
 ## About ROSbloX
 
