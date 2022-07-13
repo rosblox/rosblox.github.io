@@ -2,9 +2,12 @@
 
 ROSbloX are modules to discover the Robot Operating System (ROS).
 
+Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
 Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)  
-Subscribe to our Youtube channel: [ROSbloX](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)  
+Subscribe to our Youtube channel: [ROSbloX Youtube](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)  
+
+
 Leave feedback in our Google form: [ROSbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7)
 
 ## About ROSbloX
