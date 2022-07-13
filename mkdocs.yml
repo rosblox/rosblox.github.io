@@ -3,4 +3,6 @@ site_url: https://rosblox.github.io/
 nav:
     - Home: index.md
 
-theme: readthedocs
+theme:
+  name: readthedocs
+  logo: assets/logo.png
