@@ -1,9 +1,15 @@
 site_name: ROSbloX
 site_url: https://rosblox.github.io/
 nav:
-    - Home: index.md
+      - 'The ROSbloX documentation': index.md
+      - 'Connecting to ROSbloX': 'connection.md'
+      - 'The ROSbloX interfaces': 'interface.md'
+      - 'Further Reading': 'background.md'
+
 repo_url: https://github.com/rosblox/rosblox.github.io
 
 theme:
   name: readthedocs
   logo: assets/logo.png
+  include_homepage_in_sidebar: true
+  collapse_navigation: true
