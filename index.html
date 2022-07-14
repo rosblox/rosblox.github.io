@@ -23,6 +23,14 @@
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
       <script>hljs.initHighlightingOnLoad();</script> 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=${{ secrets.GOOGLE_ANALYTICS_MEASUREMENT_ID }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '${{ secrets.GOOGLE_ANALYTICS_MEASUREMENT_ID }}');
+      </script>
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -148,5 +156,5 @@ Subscribe to our Youtube channel: <a href="https://www.youtube.com/channel/UC8t8
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-07-14 16:18:43.109450+00:00
+Build Date UTC : 2022-07-14 16:31:53.756691+00:00
 -->
