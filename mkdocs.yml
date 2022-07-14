@@ -14,4 +14,4 @@ theme:
   include_homepage_in_sidebar: true
   collapse_navigation: true
   analytics:
-    gtag: ${{ secrets.GOOGLE_ANALYTICS_MEASUREMENT_ID }}
+    gtag: G-VDKN1X1DXK
