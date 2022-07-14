@@ -10,40 +10,52 @@ Subscribe to our Youtube channel: [ROSbloX Youtube](https://www.youtube.com/chan
 
 Leave feedback in our Google form: [ROSbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7)
 
-## About ROSbloX
+## About ROSbloX ([Suggest change to section](https://forms.gle/inkBM8DFm7Y83t6N6))
 
 The Robot Operating System (ROS), [https://www.ros.org/](https://www.ros.org/), is rapidly becoming a de facto standard for writing interoperable and reusable robot software. The interoperability and reusability of ROS software come at the price of an increased sofware complexity. Getting started with ROS is complex, especially for developers with backgrounds other than sofware engineering.  
 
 ROSbloX are modules to explore the functionality of various sensors and actuators and to discover the capabilities of ROS with minimal prior knowledge. Each ROSbloX implements a sensor or an actuator, is equipped with multiple communication interfaces to connect to computers and simple user interfaces, namely a web interface, a python library, and native ROS, to transmit data.  
 
-The ROSbloX project has just started. We greatly appreciate your inputs through our amazing [ROsbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7) form to further develop the project. 
+The ROSbloX project has just started. We greatly appreciate your inputs through our amazing [ROsbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7) form to further develop the project.  
 
-## Requirements
+## Connecting to ROSbloX ([Suggest change to section](https://forms.gle/inkBM8DFm7Y83t6N6))
 
-ROSbloX function with computers which run Windows, MacOS or Linux. 
-Note, ROSbloX do not require any installation of ROS on a computer.  
+ROSbloX can be connected to computers which run Windows, MacOS or Linux via USB-C or Ethernet. Note, ROSbloX do not require any installation of ROS on a computer.  
 
-## Connecting to ROSbloX
-
-ROSbloX can be connected via USB-C or Ethernet.
 
 ### Connecting to ROSbloX via USB
 
-The USB port of a ROSbloX is configured such that it appears to a connecting computer as a network adapter. It runs a DHCP server on the USB interface and automatically assigns an IP address to the connecting computer. When connected via USB, the ROSBloX is accessible via its static IP address, 10.99.10.99/24. 
+The USB port of a ROSbloX is configured such that it appears to a connecting computer as a network adapter. It runs a DHCP server on the USB interface and automatically assigns an IP address to the connecting computer. When connected via USB, the ROSBloX is accessible via its static IP address, 10.99.10.99. 
 
 ### Connecting to ROSbloX via Ethernet 
 
 Each ROSbloX's Ethernet interface has two IP addresses assigned to it. One static which is set on the ROSbloX itself and one dynamic which waits for a DHCP lease.
 
-#### Dynamic IP Adress from a DHCP Server 
+#### Dynamic IP Adress (from a DHCP Server)
 
 The dynamic IP address of a ROSbloX is assigned to it by a DHCP server in the network. To access a ROSbloX via its dynamic IP address, the IP address has to retrieved from the DHCP server.
 
 #### Static IP Adress
 
-Each ROSbloX ships with the same static IP address, 10.99.11.99/24. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet. Note, this can lead to conflicts if you connect multiple ROSbloX to the same network. See [Changing a ROSbloX network configuration](#changing-a-rosblox-network-configuration), for instructions how to change a ROSbloX network configuration.
+Each ROSbloX ships with the same static IP address, 10.99.11.99, with subnet mask 255.255.255.0. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet. Note, this can lead to conflicts if you connect multiple ROSbloX to the same network. See [Changing a ROSbloX network configuration](#changing-a-rosblox-network-configuration), for instructions how to change a ROSbloX network configuration.
 
-## Interfacing with ROSbloX
+### Checking connectivity
+
+Before receiving data from a ROSbloX, ensure that the ROSbloX is connected by pinging it:
+```
+ping rockpis.local # Resolves correct IP address automatically
+```
+
+Some networks prohibit discovery of ROSbloX by their mDNS name, i.e. it cannot be reached via ```rockpis.local```. In that case a ROSbloX can be reached via its IP address:
+```
+ping 10.99.10.99 # If connected via USB
+ping 10.99.11.99 # If connected via Ethernet (static IP address)
+```
+
+More information on how to use the ping command can be found [here](https://www.siteground.com/kb/how_to_perform_ping_checks_in_windows_linux_and_mac_os/).  If the ROSbloX is not reachable by either of the commands, the network setup does not work properly. Please leave some feedback in our feedback form: [ROSbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7)   
+
+
+## Interfacing with ROSbloX ([Suggest change to section](https://forms.gle/inkBM8DFm7Y83t6N6))
 
 Three interfaces are available to transmit data to/from ROSbloX. First, a simple web interface can be used to visualize and/or download data from a ROSbloX. Second, the Python library, roslibpy, which enables data transmission to/from ROSbloX without installing ROS and is easy to integrate in Python scripts. And third, each ROSbloX can be found as ROS node by other ROS nodes in a network.  
 
@@ -85,9 +97,10 @@ Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing
 ros2 node list
 ros2 topic list
 ```
-We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.  
+We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.   
 
-## Open Architecture
+
+## Open Architecture ([Suggest change to section](https://forms.gle/inkBM8DFm7Y83t6N6))
 
 ROSblox are open. Login to a ROSbloX via SSH.  
 
@@ -101,4 +114,4 @@ We refer to netplan.io for further instructions how to modify its network config
 
 ### Updating a ROSbloX
 
-The ROSbloX can be updated by executiong docker compose pull in the the main repository in the home folder.
+The ROSbloX can be updated by executiong docker compose pull in the the main repository in the home folder.  
