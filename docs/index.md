@@ -1,4 +1,4 @@
-# The ROSbloX documentation
+# ROSbloX documentation
 
 ROSbloX are modules to discover the Robot Operating System (ROS).
 

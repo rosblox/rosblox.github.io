@@ -1,4 +1,4 @@
-# The ROSbloX interfaces
+# ROSbloX interfaces
 
 Three interfaces are available to transmit data to/from ROSbloX. First, a simple web interface can be used to visualize and/or download data from a ROSbloX. Second, the Python library, roslibpy, which enables data transmission to/from ROSbloX without installing ROS and is easy to integrate in Python scripts. And third, each ROSbloX can be found as ROS node by other ROS nodes in a network.  
 
