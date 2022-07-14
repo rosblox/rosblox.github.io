@@ -5,4 +5,19 @@
          <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://rosblox.github.io/background/</loc>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rosblox.github.io/connection/</loc>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rosblox.github.io/interface/</loc>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
