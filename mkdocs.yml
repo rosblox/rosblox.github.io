@@ -13,3 +13,5 @@ theme:
   logo: assets/logo.png
   include_homepage_in_sidebar: true
   collapse_navigation: true
+  analytics:
+    gtag: ${{ secrets.GOOGLE_ANALYTICS_MEASUREMENT_ID }}
