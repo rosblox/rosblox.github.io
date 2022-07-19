@@ -11,7 +11,7 @@ edit_uri: edit/main/docs
 
 theme:
   name: readthedocs
-  logo: assets/logo.png
+  logo: img/logo.png
   include_homepage_in_sidebar: true
   collapse_navigation: true
   analytics:
