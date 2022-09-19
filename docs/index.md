@@ -28,6 +28,7 @@ The available ROSbloX are continously expanded:
 - [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolabs' Zed Mini Mixed-Reality Camera
 - [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrios's open source GNSS mosaicHAT
 - [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontroller via micro-ROS
+- [BloX Joy-Linux](https://github.com/rosblox/blox-joy-linux): Use a gamepad connected via Bluetooth
 - ...
 
 Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
