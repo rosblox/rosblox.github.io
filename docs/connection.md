@@ -30,8 +30,8 @@ ping rosblox.local # Resolves correct IP address automatically
 
 Some networks prohibit discovery of ROSbloX by their mDNS name, i.e. it cannot be reached via ```rosblox.local```. In that case a ROSbloX can be reached via its IP address:
 ```
-ping **10.99.11.1** # If connected via USB
-ping **10.99.1.2** # If connected via Ethernet (static IP address)
+ping 10.99.11.1 # If connected via USB
+ping 10.99.1.2 # If connected via Ethernet (static IP address)
 ```
 
 More information on how to use the ping command can be found [here](https://www.siteground.com/kb/how_to_perform_ping_checks_in_windows_linux_and_mac_os/).  If the ROSbloX is not reachable by either of the commands, the network setup does not work properly. Please leave some feedback in our feedback form: [ROSbloX Feedback](https://forms.gle/vUeeocDE7jSQKdCc7)   
