@@ -95,8 +95,7 @@
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
       <li>Connecting to ROSbloX</li>
     <li class="wy-breadcrumbs-aside">
-        <a href="https://github.com/rosblox/rosblox.github.io/edit/main/docs/connection.md"
-          class="icon icon-github"> Edit on GitHub</a>
+          <a href="https://github.com/rosblox/rosblox.github.io/edit/main/docs/connection.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -107,21 +106,21 @@
                 <h1 id="connecting-to-rosblox">Connecting to ROSbloX</h1>
 <p>ROSbloX can be connected to computers which run Windows, MacOS or Linux via USB-C or Ethernet. Note, ROSbloX do not require any installation of ROS on a computer.  </p>
 <h2 id="connecting-to-rosblox-via-usb">Connecting to ROSbloX via USB</h2>
-<p>The USB port of a ROSbloX is configured such that it appears to a connecting computer as a network adapter. It runs a DHCP server on the USB interface and automatically assigns an IP address to the connecting computer. When connected via USB, the ROSBloX is accessible via its static IP address, 10.99.0.1. </p>
+<p>The USB port of a ROSbloX is configured such that it appears to a connecting computer as a network adapter. It runs a DHCP server on the USB interface and automatically assigns an IP address to the connecting computer. When connected via USB, the ROSBloX is accessible via its static IP address, <strong>10.99.11.1</strong>. </p>
 <h2 id="connecting-to-rosblox-via-ethernet">Connecting to ROSbloX via Ethernet</h2>
 <p>Each ROSbloX's Ethernet interface has two IP addresses assigned to it. One static which is set on the ROSbloX itself and one dynamic which waits for a DHCP lease.</p>
 <h3 id="dynamic-ip-adress-from-a-dhcp-server">Dynamic IP Adress (from a DHCP Server)</h3>
 <p>The dynamic IP address of a ROSbloX is assigned to it by a DHCP server in the network. To access a ROSbloX via its dynamic IP address, the IP address has to retrieved from the DHCP server.</p>
 <h3 id="static-ip-adress">Static IP Adress</h3>
-<p>Each ROSbloX ships with the same static IP address, 10.99.1.2, with subnet mask 255.255.255.0. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet, e.g. 10.99.1.1.  </p>
+<p>Each ROSbloX ships with the same static IP address, <strong>10.99.1.2</strong>, with subnet mask 255.255.255.0. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet, e.g. 10.99.1.1.  </p>
 <p>Note, this can lead to conflicts if you connect multiple ROSbloX to the same network. See <a href="#changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</a>, for instructions how to change a ROSbloX network configuration.</p>
 <h2 id="checking-connectivity">Checking connectivity</h2>
 <p>Before receiving data from a ROSbloX, ensure that the ROSbloX is connected by pinging it:</p>
 <pre><code>ping rosblox.local # Resolves correct IP address automatically
 </code></pre>
 <p>Some networks prohibit discovery of ROSbloX by their mDNS name, i.e. it cannot be reached via <code>rosblox.local</code>. In that case a ROSbloX can be reached via its IP address:</p>
-<pre><code>ping 10.99.10.99 # If connected via USB
-ping 10.99.11.99 # If connected via Ethernet (static IP address)
+<pre><code>ping **10.99.11.1** # If connected via USB
+ping **10.99.1.2** # If connected via Ethernet (static IP address)
 </code></pre>
 <p>More information on how to use the ping command can be found <a href="https://www.siteground.com/kb/how_to_perform_ping_checks_in_windows_linux_and_mac_os/">here</a>.  If the ROSbloX is not reachable by either of the commands, the network setup does not work properly. Please leave some feedback in our feedback form: <a href="https://forms.gle/vUeeocDE7jSQKdCc7">ROSbloX Feedback</a>   </p>
               
