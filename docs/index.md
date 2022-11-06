@@ -21,13 +21,14 @@ The ROSbloX project has just started. We greatly appreciate your inputs through 
 
 ### Available ROSbloX
 
-The available ROSbloX are continously expanded:
+The available ROSbloX are continuously expanded:
 
 - [BloX LIS3DH](https://github.com/rosblox/blox-lis3dh): Based on Adafruit's LIS3DH Triple-Axis Accelerometer
 - [BloX LSM6DSOX-LIS3MDL](https://github.com/rosblox/blox-lsm6dsox-lis3mdl): Based on Adafruit's LSM6DSOX-LIS3MDL 9-DoF IMU
-- [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolabs' Zed Mini Mixed-Reality Camera
-- [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrios's open source GNSS mosaicHAT
+- [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolab's Zed Mini Mixed-Reality Camera
+- [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrio's open source GNSS mosaicHAT
 - [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontroller via micro-ROS
+- [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
 - ...
 
 Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
