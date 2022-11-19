@@ -30,6 +30,8 @@ The available ROSbloX are continuously expanded:
 - [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontroller via micro-ROS
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
 - [BloX Joy-Linux](https://github.com/rosblox/blox-joy-linux): Use a gamepad connected via Bluetooth
+- [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Trigger recording of ROS bags via service call
+- [BloX Dynamixel](https://github.com/rosblox/blox-dynamixel): Trigger recording of ROS bags via service call
 - ...
 
 Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
