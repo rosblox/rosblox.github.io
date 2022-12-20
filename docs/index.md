@@ -33,6 +33,7 @@ The available ROSbloX are continuously expanded:
 - [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Trigger recording of ROS bags via service call
 - [BloX Dynamixel](https://github.com/rosblox/blox-dynamixel): Based on Dynamixel SDK to control Dynamixel Servos
 - [BloX Lumecube](https://github.com/rosblox/blox-lumecube): Allows controlling a Lumecube
+- [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motrion tracking data from Optitrack
 - ...
 
 Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
