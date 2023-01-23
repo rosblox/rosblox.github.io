@@ -1,6 +1,6 @@
 # Connecting to ROSbloX
 
-ROSbloX can be connected to computers which run Windows, MacOS or Linux via USB-C or Ethernet. Note, ROSbloX do not require any installation of ROS on a computer.  
+ROSbloX can be connected to computers which run Windows, MacOS or Linux via USB-C or Ethernet. Note, ROSbloX are **plug-and-play** and do not require an installation of ROS on a computer.  
 
 
 ## Connecting to ROSbloX via USB
