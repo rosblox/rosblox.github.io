@@ -8,7 +8,7 @@ Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)
 Subscribe to our Youtube channel: [ROSbloX Youtube](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)  
 
 
-Leave a comment with some feedback in the feedback discussion: [ROSbloX Feedback]([https://forms.gle/vUeeocDE7jSQKdCc7](https://github.com/orgs/rosblox/discussions/2))
+Leave a comment with some feedback in the feedback discussion: [ROSbloX Feedback](https://github.com/orgs/rosblox/discussions/2)
 
 ### About ROSbloX
 
