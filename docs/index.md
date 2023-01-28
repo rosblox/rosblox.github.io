@@ -2,6 +2,8 @@
 
 ROSbloX are modules to discover the Robot Operating System (ROS).
 
+[![ROSbloX: Teaser No. 1](https://img.youtube.com/vi/-He6dyaXMyQ/0.jpg)](https://www.youtube.com/watch?v=-He6dyaXMyQ "ROSbloX: Teaser No. 1")
+
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
 Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)  
@@ -11,9 +13,6 @@ Leave some feedback: [ROSbloX Feedback](https://github.com/orgs/rosblox/discussi
 
 ### About ROSbloX
 
-[![ROSbloX: Teaser No. 1]
-(https://img.youtube.com/vi/-He6dyaXMyQ/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=-He6dyaXMyQ)
 
 The Robot Operating System (ROS), [https://www.ros.org/](https://www.ros.org/), is rapidly becoming a de facto standard for writing interoperable and reusable robot software. The interoperability and reusability of ROS software come at the price of an increased sofware complexity. Getting started with ROS is complex, especially for developers with backgrounds other than sofware engineering.  
 
