@@ -26,19 +26,27 @@ ROSbloX are modules to explore the functionalities of various sensors and actuat
 
 ### Available ROSbloX
 
-The available ROSbloX are continuously expanded:
+The available ROSbloX are continuously expanded. The  
+
+#### Sensors
 
 - [BloX LIS3DH](https://github.com/rosblox/blox-lis3dh): Based on Adafruit's LIS3DH Triple-Axis Accelerometer
 - [BloX LSM6DSOX-LIS3MDL](https://github.com/rosblox/blox-lsm6dsox-lis3mdl): Based on Adafruit's LSM6DSOX-LIS3MDL 9-DoF IMU
 - [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolab's Zed Mini Mixed-Reality Camera
 - [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrio's open source GNSS mosaicHAT
-- [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontroller via micro-ROS
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
+- [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motrion tracking data from Optitrack
+
+#### Actuators
+
 - [BloX Joy-Linux](https://github.com/rosblox/blox-joy-linux): Use a gamepad connected via Bluetooth
 - [BloX Dynamixel](https://github.com/rosblox/blox-dynamixel): Based on Dynamixel SDK to control Dynamixel Servos
 - [BloX Lumecube](https://github.com/rosblox/blox-lumecube): Allows controlling a Lumecube
-- [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motrion tracking data from Optitrack
+- [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontrollers via micro-ROS
+
+#### Algorithms
+
 - [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Record data to ROS bags
-- ...
+
 
 Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
