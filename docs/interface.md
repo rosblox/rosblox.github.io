@@ -1,19 +1,26 @@
-# ROSbloX interfaces
+# Interfacing with ROSbloX
 
-Three interfaces are available to transmit data to/from ROSbloX. First, a simple web interface can be used to visualize and/or download data from a ROSbloX. Second, the Python library, roslibpy, which enables data transmission to/from ROSbloX without installing ROS and is easy to integrate in Python scripts. And third, each ROSbloX can be found as ROS node by other ROS nodes in a network.  
 
-Some networks do not allow the discovery of ROSbloX by their mDNS name, that means a ROSbloX cannot be reached at rosblox.local. In that case their interfaces can be accessed by their IP address's, i.e. 10.99.10.99 if connected via USB and 10.99.12.99 if connected via Ethernet.
+Three interfaces are available to transmit data to/from ROSbloX:  
+- A Web interface which allows visualizing and saving data  
+- A Python library which enables real-time data transmission and simple integration in Python scripts without installing ROS  
+- The native ROS2 interfaces
 
-## Web Interface
-To open a ROSbloX's web interface, a computer requires solely the [Chrome](https://www.google.com/chrome/) browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at http://rosblox.local in your Chrome browser. 
+![Interfacing with ROSbloX](img/interfaces.png)
 
-## roslibpy
 
-To transmit data to/from a ROSblox in a Python script, the roslibpy can be used. Install the library with 
+## Web interface: Foxglove Studio 
+
+To open a ROSbloX's web interface, a computer requires the [Chrome](https://www.google.com/chrome/) browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at <http://rosblox.local/> in your Chrome browser. The web interface is based on [Foxglove Studio](https://foxglove.dev/studio).
+
+
+## Python library: roslibpy
+
+To transmit data to/from a ROSblox in real-time in Python, the [roslibpy: ROS Bridge library](https://roslibpy.readthedocs.io/) can be used. Install the library with 
 ```
 pip install roslibpy
 ```
-Afterwards, you can run the following lines in a Python shell to receive data from your ORSbloX.
+Afterwards, add the following lines in a Python script to receive data from a ROSbloX in real-time.
 
 ```
 from __future__ import print_function
@@ -33,11 +40,11 @@ except KeyboardInterrupt:
 ```
 
 
-## ROS
+## ROS2 (native)
 
-Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing 
+Each ROSbloX is implemented as ROS2 node and can thus be reached via ROS2 native connections, e.g. it shows up when executing 
 ```
 ros2 node list
 ros2 topic list
 ```
-We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.   
+We refer to the official [ROS documentation](https://docs.ros.org/) to get started with ROS. 

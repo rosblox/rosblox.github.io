@@ -3,7 +3,7 @@ site_url: https://rosblox.github.io/
 nav:
       - 'The ROSbloX documentation': index.md
       - 'Connecting to ROSbloX': 'connection.md'
-      - 'The ROSbloX interfaces': 'interface.md'
+      - 'Interfacing with ROSbloX': 'interface.md'
       - 'Further Reading': 'background.md'
 
 repo_url: https://github.com/rosblox/rosblox.github.io
