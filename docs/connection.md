@@ -19,7 +19,7 @@ The dynamic IP address of a ROSbloX is assigned to it by a DHCP server in the ne
 
 ### Static IP Adress
 
-Each ROSbloX is configured with a unique, static IP address in the **10.99.1.XXX/24** subnet. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet, e.g. 10.99.1.1/24. See [Changing a ROSbloX network configuration](#changing-a-rosblox-network-configuration), for instructions how to change a ROSbloX network configuration like its static IP address.
+Each ROSbloX is configured with a unique, static IP address in the **10.99.1.XXX/24** subnet. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet, e.g. 10.99.1.1/24. See [Changing a ROSbloX network configuration](./background.md#changing-a-rosblox-network-configuration), for instructions how to change a ROSbloX network configuration like its static IP address.
 
 ## Checking connectivity
 

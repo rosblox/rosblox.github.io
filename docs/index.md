@@ -11,8 +11,10 @@ Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
 Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)  
 Subscribe to our Youtube channel: [ROSbloX Youtube](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)  
+Leave some feedback/ideas/questions: [ROSbloX Discussions](https://github.com/orgs/rosblox/discussions)  
 
-Leave some feedback/ideas/questions: [ROSbloX Discussions](https://github.com/orgs/rosblox/discussions)
+We greatly appreciate your engagement!
+
 
 ### About ROSbloX
 
@@ -20,7 +22,6 @@ The Robot Operating System (ROS), [https://www.ros.org/](https://www.ros.org/), 
 
 ROSbloX are modules to explore the functionalities of various sensors and actuators and to discover the capabilities of ROS with minimal prior knowledge. Each ROSbloX implements a sensor or an actuator, is equipped with multiple communication interfaces to connect to computers and simple user interfaces, namely a web interface, a python library, and native ROS, to transmit data.  
 
-The ROSbloX project has just started. We greatly appreciate your inputs to further develop the project.  
 
 
 ### Available ROSbloX

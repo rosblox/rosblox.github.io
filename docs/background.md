@@ -9,9 +9,4 @@ Password: rock
 
 ## Changing a ROSbloX network configuration
 
-The ROSbloX network interfaces are configured in /etc/netplan/01-net.cfg. 
-We refer to netplan.io for further instructions how to modify its network configuration.
-
-## Updating a ROSbloX
-
-The ROSbloX can be updated by executiong docker compose pull in the the main repository in the home folder.  
+The ROSbloX network interfaces are configured with [Netplan](https://netplan.io/). The network configuration file is located in the ROSbloX file system under /etc/netplan/01-net.cfg.
