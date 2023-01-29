@@ -9,12 +9,12 @@ Three interfaces are available to transmit data to/from ROSbloX:
 ![Interfacing with ROSbloX](img/interfaces.png)
 
 
-## Web interface: Foxglove Studio 
+## Web interface (Foxglove Studio) 
 
 To open a ROSbloX's web interface, a computer requires the [Chrome](https://www.google.com/chrome/) browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at <http://rosblox.local/> in your Chrome browser. The web interface is based on [Foxglove Studio](https://foxglove.dev/studio).
 
 
-## Python library: roslibpy
+## Python library (roslibpy)
 
 To transmit data to/from a ROSblox in real-time in Python, the [roslibpy: ROS Bridge library](https://roslibpy.readthedocs.io/) can be used. Install the library with 
 ```
