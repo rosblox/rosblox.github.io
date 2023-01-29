@@ -23,7 +23,6 @@ The Robot Operating System (ROS), [https://www.ros.org/](https://www.ros.org/), 
 ROSbloX are modules to explore the functionalities of various sensors and actuators and to discover the capabilities of ROS with minimal prior knowledge. Each ROSbloX implements a sensor or an actuator, is equipped with multiple communication interfaces to connect to computers and simple user interfaces, namely a web interface, a python library, and native ROS, to transmit data.  
 
 
-
 ### Available ROSbloX
 
 The available ROSbloX are continuously expanded. Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
