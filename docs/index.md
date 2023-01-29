@@ -26,7 +26,8 @@ ROSbloX are modules to explore the functionalities of various sensors and actuat
 
 ### Available ROSbloX
 
-The available ROSbloX are continuously expanded. The  
+The available ROSbloX are continuously expanded. Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
+  
 
 #### Sensors
 
@@ -47,6 +48,3 @@ The available ROSbloX are continuously expanded. The
 #### Algorithms
 
 - [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Record data to ROS bags
-
-
-Contact us to propose novel ROSbloX and to obtain existing ROSbloX! 
