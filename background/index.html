@@ -68,8 +68,6 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#updating-a-rosblox">Updating a ROSbloX</a>
-    </li>
     </ul>
                 </li>
               </ul>
@@ -103,10 +101,7 @@
 <p>Username: rock<br />
 Password: rock  </p>
 <h2 id="changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</h2>
-<p>The ROSbloX network interfaces are configured in /etc/netplan/01-net.cfg. 
-We refer to netplan.io for further instructions how to modify its network configuration.</p>
-<h2 id="updating-a-rosblox">Updating a ROSbloX</h2>
-<p>The ROSbloX can be updated by executiong docker compose pull in the the main repository in the home folder.  </p>
+<p>The ROSbloX network interfaces are configured with <a href="https://netplan.io/">Netplan</a>. The network configuration file is located in the ROSbloX file system under /etc/netplan/01-net.cfg.</p>
               
             </div>
           </div><footer>
