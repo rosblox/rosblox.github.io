@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://rosblox.github.io/interface/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>The ROSbloX interfaces - ROSbloX</title>
+    <title>Interfacing with ROSbloX - ROSbloX</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "The ROSbloX interfaces";
+        var mkdocs_page_name = "Interfacing with ROSbloX";
         var mkdocs_page_input_path = "interface.md";
         var mkdocs_page_url = "/interface/";
       </script>
@@ -58,13 +58,13 @@
                 </li>
               </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">The ROSbloX interfaces</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Interfacing with ROSbloX</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#web-interface">Web Interface</a>
+    <li class="toctree-l2"><a class="reference internal" href="#web-interface-foxglove-studio">Web interface: Foxglove Studio</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#roslibpy">roslibpy</a>
+    <li class="toctree-l2"><a class="reference internal" href="#python-library-roslibpy">Python library: roslibpy</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#ros">ROS</a>
+    <li class="toctree-l2"><a class="reference internal" href="#ros2-native">ROS2 (native)</a>
     </li>
     </ul>
                 </li>
@@ -87,7 +87,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>The ROSbloX interfaces</li>
+      <li>Interfacing with ROSbloX</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/rosblox/rosblox.github.io/edit/main/docs/interface.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -97,16 +97,19 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="rosblox-interfaces">ROSbloX interfaces</h1>
-<p>Three interfaces are available to transmit data to/from ROSbloX. First, a simple web interface can be used to visualize and/or download data from a ROSbloX. Second, the Python library, roslibpy, which enables data transmission to/from ROSbloX without installing ROS and is easy to integrate in Python scripts. And third, each ROSbloX can be found as ROS node by other ROS nodes in a network.  </p>
-<p>Some networks do not allow the discovery of ROSbloX by their mDNS name, that means a ROSbloX cannot be reached at rosblox.local. In that case their interfaces can be accessed by their IP address's, i.e. 10.99.10.99 if connected via USB and 10.99.12.99 if connected via Ethernet.</p>
-<h2 id="web-interface">Web Interface</h2>
-<p>To open a ROSbloX's web interface, a computer requires solely the <a href="https://www.google.com/chrome/">Chrome</a> browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at http://rosblox.local in your Chrome browser. </p>
-<h2 id="roslibpy">roslibpy</h2>
-<p>To transmit data to/from a ROSblox in a Python script, the roslibpy can be used. Install the library with </p>
+                <h1 id="interfacing-with-rosblox">Interfacing with ROSbloX</h1>
+<p>Three interfaces are available to transmit data to/from ROSbloX:<br />
+- A Web interface which allows visualizing and saving data<br />
+- A Python library which enables real-time data transmission and simple integration in Python scripts without installing ROS<br />
+- The native ROS2 interfaces</p>
+<p><img alt="Interfacing with ROSbloX" src="../img/interfaces.png" /></p>
+<h2 id="web-interface-foxglove-studio">Web interface: Foxglove Studio</h2>
+<p>To open a ROSbloX's web interface, a computer requires the <a href="https://www.google.com/chrome/">Chrome</a> browser to be installed. After a ROSbloX has started (which can take up to a minute), its web interface is accessible at <a href="http://rosblox.local/">http://rosblox.local/</a> in your Chrome browser. The web interface is based on <a href="https://foxglove.dev/studio">Foxglove Studio</a>.</p>
+<h2 id="python-library-roslibpy">Python library: roslibpy</h2>
+<p>To transmit data to/from a ROSblox in real-time in Python, the <a href="https://roslibpy.readthedocs.io/">roslibpy: ROS Bridge library</a> can be used. Install the library with </p>
 <pre><code>pip install roslibpy
 </code></pre>
-<p>Afterwards, you can run the following lines in a Python shell to receive data from your ORSbloX.</p>
+<p>Afterwards, add the following lines in a Python script to receive data from a ROSbloX in real-time.</p>
 <pre><code>from __future__ import print_function
 import roslibpy
 
@@ -122,12 +125,12 @@ try:
 except KeyboardInterrupt:
     client.terminate()
 </code></pre>
-<h2 id="ros">ROS</h2>
-<p>Each ROSbloX can be accessed as normal ROS node, e.g. it shows up when executing </p>
+<h2 id="ros2-native">ROS2 (native)</h2>
+<p>Each ROSbloX is implemented as ROS2 node and can thus be reached via ROS2 native connections, e.g. it shows up when executing </p>
 <pre><code>ros2 node list
 ros2 topic list
 </code></pre>
-<p>We refer to the official ROS documentation how to communicate with ROS nodes in a network. Further resources and tutorials how to get started with ROS are xxx.   </p>
+<p>We refer to the official <a href="https://docs.ros.org/">ROS documentation</a> to get started with ROS. </p>
               
             </div>
           </div><footer>
