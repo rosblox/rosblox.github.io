@@ -20,18 +20,3 @@ The dynamic IP address of a ROSbloX is assigned to it by a DHCP server in the ne
 ### Static IP Adress
 
 Each ROSbloX is configured with a unique, static IP address in the **10.99.1.XXX/24** subnet. To access a ROSbloX via their static IP address, ensure the computer's connected Ethernet interface has a static IP address in the same subnet, e.g. 10.99.1.1/24. See [Changing a ROSbloX network configuration](./background.md#changing-a-rosblox-network-configuration), for instructions how to change a ROSbloX network configuration like its static IP address.
-
-## Checking connectivity
-
-Before receiving data from a ROSbloX, ensure that the ROSbloX is connected by pinging it:
-```
-ping rosblox.local # Resolves correct IP address automatically
-```
-
-Some networks prohibit discovery of ROSbloX by their mDNS name, i.e. it cannot be reached via ```rosblox.local```. In that case a ROSbloX can be reached via its IP address:
-```
-ping 10.99.11.1 # If connected via USB
-ping 10.99.1.XXX # If connected via Ethernet (static IP address)
-```
-
-More information on how to use the ping command can be found [here](https://www.siteground.com/kb/how_to_perform_ping_checks_in_windows_linux_and_mac_os/).  If the ROSbloX is not reachable by either of the commands, the network setup does not work properly.
