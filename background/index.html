@@ -64,9 +64,11 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Further Reading</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#access-to-rosblox">Access to ROSbloX</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</a>
+    <li class="toctree-l2"><a class="reference internal" href="#checking-connectivity">Checking connectivity</a>
     </li>
     </ul>
                 </li>
@@ -96,12 +98,21 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="further-reading">Further Reading</h1>
+<h2 id="changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</h2>
+<p>The ROSbloX network interfaces are configured with <a href="https://netplan.io/">Netplan</a>. The network configuration file is located in the ROSbloX file system under /etc/netplan/01-net.cfg.</p>
 <h2 id="access-to-rosblox">Access to ROSbloX</h2>
 <p>ROSblox are open. Login to a ROSbloX via SSH.  </p>
 <p>Username: rock<br />
 Password: rock  </p>
-<h2 id="changing-a-rosblox-network-configuration">Changing a ROSbloX network configuration</h2>
-<p>The ROSbloX network interfaces are configured with <a href="https://netplan.io/">Netplan</a>. The network configuration file is located in the ROSbloX file system under /etc/netplan/01-net.cfg.</p>
+<h2 id="checking-connectivity">Checking connectivity</h2>
+<p>Before receiving data from a ROSbloX, ensure that the ROSbloX is connected by pinging it:</p>
+<pre><code>ping rosblox.local # Resolves correct IP address automatically
+</code></pre>
+<p>Some networks prohibit discovery of ROSbloX by their mDNS name, i.e. it cannot be reached via <code>rosblox.local</code>. In that case a ROSbloX can be reached via its IP address:</p>
+<pre><code>ping 10.99.11.1 # If connected via USB
+ping 10.99.1.XXX # If connected via Ethernet (static IP address)
+</code></pre>
+<p>More information on how to use the ping command can be found <a href="https://www.siteground.com/kb/how_to_perform_ping_checks_in_windows_linux_and_mac_os/">here</a>.  If the ROSbloX is not reachable by either of the commands, the network setup does not work properly.</p>
               
             </div>
           </div><footer>
