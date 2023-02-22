@@ -1,6 +1,6 @@
 # ROSbloX documentation
 
-ROSbloX are modules to discover the Robot Operating System (ROS).
+ROSbloX are building blocks that simplify the creation of a robot's software stack. They are designed based on the Robot Operating System (ROS) and comply with modern software engineering standards. With ROSbloX, users can easily develop, maintain, and scale their robot's software stack, even without prior software engineering experience.
 
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
