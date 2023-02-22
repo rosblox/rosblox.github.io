@@ -1,6 +1,6 @@
 # ROSbloX documentation
 
-ROSbloX are building blocks that simplify the creation of a robot's software stack. They are designed based on the Robot Operating System (ROS) and comply with modern software engineering standards. With ROSbloX, users can easily develop, maintain, and scale their robot's software stack, even without prior software engineering experience.
+ROSbloX are your ultimate building blocks for rapidly creating a robot's software stack.
 
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
@@ -24,7 +24,7 @@ Your engagement is greatly appreciated!
 
 The Robot Operating System (ROS), [https://www.ros.org/](https://www.ros.org/), is rapidly becoming a de facto standard for writing interoperable and reusable robot software. The interoperability and reusability of ROS software come at the price of an increased software complexity. Getting started with ROS is complex, especially for developers with no backgrounds in software engineering.  
 
-ROSbloX are modules to explore the functionalities of various sensors and actuators and to discover the capabilities of ROS with minimal prior knowledge. Each ROSbloX implements a sensor or an actuator, is equipped with multiple communication interfaces to connect to computers and simple user interfaces, namely a web interface, a python library, and native ROS, to transmit data.  
+ROSbloX are building blocks that simplify the creation of a robot's software stack. They are designed based on the Robot Operating System (ROS) and comply with modern software engineering standards. With ROSbloX, users can easily develop, maintain, and scale their robot's software stack, even without prior software engineering experience. Each ROSbloX implements a sensor, actuator or algorithm, is equipped with multiple communication interfaces to connect to it and simple user interfaces, namely a web interface, a python library, and native ROS, to transmit data.  
 
 
 ### Available ROSbloX
