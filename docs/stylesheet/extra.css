@@ -1,0 +1,19 @@
+.wy-nav-content {
+  max-width: 1000px;
+}
+
+
+.iframes-container {
+  display: flex;
+  position: relative;
+  padding-bottom: 3%;
+  height: auto;
+  max-width: 100%;
+}
+
+.iframes-container iframe {
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+}
+

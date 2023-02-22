@@ -8,6 +8,8 @@ nav:
 
 repo_url: https://github.com/rosblox/rosblox.github.io
 edit_uri: edit/main/docs
+extra_css:
+  - stylesheet/extra.css
 
 theme:
   name: readthedocs

@@ -10,12 +10,11 @@ Leave some feedback/ideas/questions: [ROSbloX Discussions](https://github.com/or
 
 Your engagement is greatly appreciated!
 
-<div style="position:relative;padding-top:66.25%;">
-    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;padding-bottom:3%;" src="https://www.youtube.com/embed/-He6dyaXMyQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-<div style="position:relative;padding-top:66.25%;">
-    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;padding-bottom:3%;" src="https://www.youtube.com/embed/bdczK-xmrPQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="iframes-container">
+    <iframe style="padding-right:1%;" src="https://www.youtube.com/embed/-He6dyaXMyQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    <iframe style="padding-left:1%;" src="https://www.youtube.com/embed/bdczK-xmrPQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
 </div>
 
 
