@@ -2,18 +2,22 @@
 
 ROSbloX are modules to discover the Robot Operating System (ROS).
 
-
-<div style="position:relative;padding-top:66.25%;">
-    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;padding-bottom:3%;" src="https://www.youtube.com/embed/-He6dyaXMyQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
 Follow us on Twitter: [ROSbloX (@xploros)](https://twitter.com/xploros)  
 Subscribe to our Youtube channel: [ROSbloX Youtube](https://www.youtube.com/channel/UC8t8kygP_QODOw7MCxGZJVg)  
 Leave some feedback/ideas/questions: [ROSbloX Discussions](https://github.com/orgs/rosblox/discussions)  
 
-We greatly appreciate your engagement!
+Your engagement is greatly appreciated!
+
+
+<div style="position:relative;padding-top:66.25%;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;padding-bottom:3%;" src="https://www.youtube.com/embed/-He6dyaXMyQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div style="position:relative;padding-top:66.25%;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;padding-bottom:3%;" src="https://www.youtube.com/embed/bdczK-xmrPQ" title="ROSbloX: Teaser No. 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ### About ROSbloX
