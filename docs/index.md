@@ -37,7 +37,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolab's Zed Mini Mixed-Reality Camera
 - [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrio's open source GNSS mosaicHAT
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
-- [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motrion tracking data from Optitrack
+- [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motion tracking data from Optitrack
 
 #### Actuators
 
