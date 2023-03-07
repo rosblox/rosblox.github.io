@@ -49,3 +49,18 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 #### Algorithms
 
 - [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Record data to ROS bags
+
+
+#### Planned
+
+- BloX Plotjuggler: Debug your robot with browser-based Plotjuggler
+- BloX RViz: Visualize your robot with browser-based RViz
+- BloX RQt: Debug your robot with browser-based RQt
+- BloX A-Loam: Lidar-SLAM based on [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
+- BloX R3LIVE: Lidar-Visual-Inertial-SLAM based on [R3LIVE](https://github.com/hku-mars/r3live)
+- BloX Isaac-ROS-Apriltag: Fast Apriltag detection using [Nvidida's Isaac ROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag)
+- BloX Isaac-ROS-(algorithms): GPU-accelerated algorithms from [Nvidia Isaac ROS](https://github.com/NVIDIA-ISAAC-ROS) 
+
+
+
+
