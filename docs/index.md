@@ -38,6 +38,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrio's open source GNSS mosaicHAT
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
 - [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motion tracking data from Optitrack
+- [Blox Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
 
 #### Actuators
 
@@ -45,6 +46,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Dynamixel](https://github.com/rosblox/blox-dynamixel): Based on Dynamixel SDK to control Dynamixel Servos
 - [BloX Lumecube](https://github.com/rosblox/blox-lumecube): Allows controlling a Lumecube
 - [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontrollers via micro-ROS
+- [Blox PCA9685](https://github.com/rosblox/blox-pca9685): Interfaces with Adafruits PWM/Servo Driver via I2C
 
 #### Algorithms
 
