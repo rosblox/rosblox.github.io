@@ -1,6 +1,6 @@
 # ROSbloX documentation
 
-ROSbloX are your ultimate building blocks for rapidly creating a robot's software stack.
+ROSbloX are your ultimate building blocks for rapidly creating a robot's software stack. They feature **plug-and-play connectivity** and **integrated data visualization**.
 
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
 Join us on Slack: [ROSbloX Workspace](https://join.slack.com/t/rosblox/shared_invite/zt-1c6ifc24n-OswQtNwORkq588QPNZ2KoA)  
