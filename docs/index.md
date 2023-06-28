@@ -39,6 +39,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
 - [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motion tracking data from Optitrack
 - [Blox Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
+- [Blox GSCam](https://github.com/rosblox/blox-gscam): Record and stream images from a USB webcam
 
 #### Actuators
 
