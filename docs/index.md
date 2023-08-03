@@ -34,13 +34,13 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 
 - [BloX LIS3DH](https://github.com/rosblox/blox-lis3dh): Based on Adafruit's LIS3DH Triple-Axis Accelerometer
 - [BloX LSM6DSOX-LIS3MDL](https://github.com/rosblox/blox-lsm6dsox-lis3mdl): Based on Adafruit's LSM6DSOX-LIS3MDL 9-DoF IMU
-- [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolab's Zed Mini Mixed-Reality Camera
+- [BloX Zed Mini](https://github.com/rosblox/blox-zed-mini): Based on Stereolab's Zed Mini Mixed-Reality CameraBloX
 - [BloX Mosaic-X5](https://github.com/rosblox/blox-mosaic-x5): Based on Septentrio's open source GNSS mosaicHAT
 - [BloX Livox-Mid-70](https://github.com/rosblox/blox-livox-ros2-driver): Based on Livox's Mid-70 LiDAR
 - [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motion tracking data from Optitrack
-- [Blox Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
-- [Blox GSCam](https://github.com/rosblox/blox-gscam): Record and stream images from a USB webcam
-- [Blox AS5048B](https://github.com/rosblox/blox-as5048b): Read position values from 14-bit absolute position encoder
+- [BloX Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
+- [BloX GSCam](https://github.com/rosblox/blox-gscam): Record and stream images from a USB webcam
+- [BloX AS5048B](https://github.com/rosblox/blox-as5048b): Read position values from 14-bit absolute position encoder
 
 #### Actuators
 
@@ -48,7 +48,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Dynamixel](https://github.com/rosblox/blox-dynamixel): Based on Dynamixel SDK to control Dynamixel Servos
 - [BloX Lumecube](https://github.com/rosblox/blox-lumecube): Allows controlling a Lumecube
 - [BloX micro-ROS](https://github.com/rosblox/blox-micro-ros): Interfaces with microcontrollers via micro-ROS
-- [Blox PCA9685](https://github.com/rosblox/blox-pca9685): Interfaces with Adafruits PWM/Servo Driver via I2C
+- [BloX PCA9685](https://github.com/rosblox/blox-pca9685): Interfaces with Adafruits PWM/Servo Driver via I2C
 
 #### Algorithms
 
