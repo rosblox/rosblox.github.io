@@ -8,7 +8,7 @@
     <title>ROSbloX</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
         <link href="stylesheet/extra.css" rel="stylesheet" />
     
       <script>
@@ -18,19 +18,18 @@
         var mkdocs_page_url = "/";
       </script>
     
-    <script src="js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDKN1X1DXK"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-VDKN1X1DXK');
+        gtag('config', "G-VDKN1X1DXK");
       </script>
 </head>
 
@@ -96,7 +95,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-      <li>The ROSbloX documentation</li>
+      <li class="breadcrumb-item active">The ROSbloX documentation</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/rosblox/rosblox.github.io/edit/main/docs/index.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -136,6 +135,7 @@ Leave some feedback/ideas/questions: <a href="https://github.com/orgs/rosblox/di
 <li><a href="https://github.com/rosblox/blox-mocap4ros2-optitrack">BloX MOCAP4ROS2-Optitrack</a>: Streams motion tracking data from Optitrack</li>
 <li><a href="https://github.com/rosblox/blox-ina220">Blox Ina220</a>: Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C</li>
 <li><a href="https://github.com/rosblox/blox-gscam">Blox GSCam</a>: Record and stream images from a USB webcam</li>
+<li><a href="https://github.com/rosblox/blox-as5048b">Blox AS5048B</a>: Read position values from 14-bit absolute position encoder</li>
 </ul>
 <h4 id="actuators">Actuators</h4>
 <ul>
@@ -195,20 +195,21 @@ Leave some feedback/ideas/questions: <a href="https://github.com/orgs/rosblox/di
     
   </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme_extra.js" defer></script>
-    <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 1.4.3
-Build Date UTC : 2023-06-28 15:36:23.376166+00:00
+MkDocs version : 1.5.2
+Build Date UTC : 2023-08-03 11:41:38.817781+00:00
 -->
