@@ -40,6 +40,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX MOCAP4ROS2-Optitrack](https://github.com/rosblox/blox-mocap4ros2-optitrack): Streams motion tracking data from Optitrack
 - [Blox Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
 - [Blox GSCam](https://github.com/rosblox/blox-gscam): Record and stream images from a USB webcam
+- [Blox AS5048B](https://github.com/rosblox/blox-as5048b): Read position values from 14-bit absolute position encoder
 
 #### Actuators
 
