@@ -1,5 +1,7 @@
 # ROSbloX documentation
 
+Building high-quality, ROS-powered robots with no prior experience about ROS networking and programming?   
+
 ROSbloX are your ultimate building blocks for rapidly creating a robot's software stack. They feature **plug-and-play connectivity** and **integrated data visualization**.
 
 Connect with us on Git: [ROSbloX Git](https://github.com/rosblox)  
