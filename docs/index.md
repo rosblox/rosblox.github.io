@@ -43,6 +43,8 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Ina220](https://github.com/rosblox/blox-ina220): Read current and voltage from an INA220 sensor, which is commonly used in drones, via I2C
 - [BloX GSCam](https://github.com/rosblox/blox-gscam): Record and stream images from a USB webcam
 - [BloX AS5048B](https://github.com/rosblox/blox-as5048b): Read position values from 14-bit absolute position encoder
+- [BloX Livox-Mid360](https://github.com/rosblox/blox-livox-ros-driver2): Record point clouds with a Livox's Mid-360 LiDAR
+- [BloX Robosense Bpearl](https://github.com/rosblox/blox-rslidar-sdk): Record point clouds with a Robosense Bpearl LiDAR
 
 #### Actuators
 
