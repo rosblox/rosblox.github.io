@@ -59,7 +59,7 @@ The available ROSbloX are continuously expanded. Contact us to propose novel ROS
 - [BloX Bag Recorder](https://github.com/rosblox/blox-bag-recorder): Record data to ROS bags
 
 
-#### Planned
+#### Available on request
 
 - BloX Plotjuggler: Debug your robot with browser-based Plotjuggler
 - BloX RViz: Visualize your robot with browser-based RViz
